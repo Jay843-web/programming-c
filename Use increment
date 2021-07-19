@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a=9;
+    int b=6;
+    a=a++;
+    printf("the value of a is %d",a);
+    a=++a;
+    printf("\nthe value of a is %d",a);
+    b=b--;
+    printf("\nthe value of b is %d",b);
+    b=--b;
+    printf("\nthe value of b is %d",b);
+    
+    return 0;
+    
+}
